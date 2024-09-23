@@ -157,8 +157,8 @@ export default function Home() {
                           height: "sm",
                           action: {
                             type: "uri",
-                            label: "test2",
-                            uri: "https://www.google.com/",
+                            label: "分享給好友",
+                            uri: "https://liff.line.me/2006335810-vKOPO9eM",
                           },
                         },
                         {
@@ -358,8 +358,8 @@ export default function Home() {
                     height: "sm",
                     action: {
                       type: "uri",
-                      label: "test2",
-                      uri: "https://www.google.com/",
+                      label: "分享給好友",
+                      uri: "https://liff.line.me/2006335810-vKOPO9eM",
                     },
                   },
                   {
