@@ -23,7 +23,7 @@ export default function Home() {
                     type: "bubble",
                     hero: {
                       type: "image",
-                      url: "https://i.pinimg.com/564x/61/de/ba/61deba51ec625493d1956063bac219fb.jpg",
+                      url: "https://images.unsplash.com/photo-1453227588063-bb302b62f50b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                       size: "full",
                       aspectRatio: "13:13",
                       aspectMode: "cover",
@@ -225,7 +225,7 @@ export default function Home() {
               type: "bubble",
               hero: {
                 type: "image",
-                url: "https://i.pinimg.com/564x/61/de/ba/61deba51ec625493d1956063bac219fb.jpg",
+                url: "https://images.unsplash.com/photo-1453227588063-bb302b62f50b?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 size: "full",
                 aspectRatio: "13:13",
                 aspectMode: "cover",
