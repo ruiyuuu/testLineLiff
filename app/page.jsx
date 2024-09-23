@@ -56,7 +56,7 @@ export default function Home() {
                           action: {
                             type: "uri",
                             label: "分享給好友",
-                            uri: "https://liff.line.me/YOUR_LIFF_URL", // 這裡放入 LIFF 或目標 URL
+                            uri: "https://liff.line.me/https://liff.line.me/2006335810-vKOPO9eM", // 這裡放入 LIFF 或目標 URL
                           },
                         },
                       ],
