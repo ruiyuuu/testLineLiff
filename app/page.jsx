@@ -181,6 +181,7 @@ export default function Home() {
               if (res) {
                 // succeeded in sending a message through TargetPicker
                 console.log(`[${res.status}] Message sent!`);
+                liff.closeWindow(); 
               } else {
                 const [majorVer, minorVer] = (
                   liff.getLineVersion() || ""
@@ -382,6 +383,7 @@ export default function Home() {
         if (res) {
           // succeeded in sending a message through TargetPicker
           console.log(`[${res.status}] Message sent!`);
+           liff.closeWindow(); 
         } else {
           const [majorVer, minorVer] = (liff.getLineVersion() || "").split(".");
           if (parseInt(majorVer) == 10 && parseInt(minorVer) < 11) {
