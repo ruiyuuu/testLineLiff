@@ -23,13 +23,13 @@ export default function Home() {
                     type: "bubble",
                     hero: {
                       type: "image",
-                      url: "https://example.com/my-image.png",
+                      url: "https://i.pinimg.com/564x/61/de/ba/61deba51ec625493d1956063bac219fb.jpg",
                       size: "full",
-                      aspectRatio: "20:13",
+                      aspectRatio: "13:13",
                       aspectMode: "cover",
                       action: {
                         type: "uri",
-                        uri: "https://example.com",
+                        uri: "https://www.google.com/",
                       },
                     },
                     body: {
@@ -38,10 +38,101 @@ export default function Home() {
                       contents: [
                         {
                           type: "text",
-                          text: "這是分享訊息的範例",
+                          text: "月圓你更圓～",
                           weight: "bold",
-                          size: "lg",
-                          wrap: true,
+                          size: "xl",
+                        },
+                        {
+                          type: "box",
+                          layout: "baseline",
+                          margin: "md",
+                          contents: [
+                            {
+                              type: "icon",
+                              size: "sm",
+                              url: "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png",
+                            },
+                            {
+                              type: "icon",
+                              size: "sm",
+                              url: "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png",
+                            },
+                            {
+                              type: "icon",
+                              size: "sm",
+                              url: "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png",
+                            },
+                            {
+                              type: "icon",
+                              size: "sm",
+                              url: "https://developers-resource.landpress.line.me/fx/img/review_gold_star_28.png",
+                            },
+                            {
+                              type: "icon",
+                              size: "sm",
+                              url: "https://developers-resource.landpress.line.me/fx/img/review_gray_star_28.png",
+                            },
+                            {
+                              type: "text",
+                              text: "4.0",
+                              size: "sm",
+                              color: "#999999",
+                              margin: "md",
+                              flex: 0,
+                            },
+                          ],
+                        },
+                        {
+                          type: "box",
+                          layout: "vertical",
+                          margin: "lg",
+                          spacing: "sm",
+                          contents: [
+                            {
+                              type: "box",
+                              layout: "baseline",
+                              spacing: "sm",
+                              contents: [
+                                {
+                                  type: "text",
+                                  text: "Place",
+                                  color: "#aaaaaa",
+                                  size: "sm",
+                                  flex: 1,
+                                },
+                                {
+                                  type: "text",
+                                  text: "Flex Tower, 7-7-4 Midori-ku, Tokyo",
+                                  wrap: true,
+                                  color: "#666666",
+                                  size: "sm",
+                                  flex: 5,
+                                },
+                              ],
+                            },
+                            {
+                              type: "box",
+                              layout: "baseline",
+                              spacing: "sm",
+                              contents: [
+                                {
+                                  type: "text",
+                                  text: "Time",
+                                  color: "#aaaaaa",
+                                  size: "sm",
+                                  flex: 1,
+                                },
+                                {
+                                  type: "text",
+                                  text: "10:00 - 23:00",
+                                  wrap: true,
+                                  color: "#666666",
+                                  size: "sm",
+                                  flex: 5,
+                                },
+                              ],
+                            },
+                          ],
                         },
                       ],
                     },
@@ -52,14 +143,32 @@ export default function Home() {
                       contents: [
                         {
                           type: "button",
-                          style: "primary",
+                          style: "link",
+                          height: "sm",
                           action: {
                             type: "uri",
-                            label: "分享給好友",
-                            uri: "https://liff.line.me/https://liff.line.me/2006335810-vKOPO9eM", // 這裡放入 LIFF 或目標 URL
+                            label: "test1",
+                            uri: "https://www.google.com/",
                           },
                         },
+                        {
+                          type: "button",
+                          style: "link",
+                          height: "sm",
+                          action: {
+                            type: "uri",
+                            label: "test2",
+                            uri: "https://www.google.com/",
+                          },
+                        },
+                        {
+                          type: "box",
+                          layout: "vertical",
+                          contents: [],
+                          margin: "sm",
+                        },
                       ],
+                      flex: 0,
                     },
                   },
                 },
@@ -250,8 +359,7 @@ export default function Home() {
                     action: {
                       type: "uri",
                       label: "test2",
-                      // uri: "https://www.google.com/",
-                      uri: "https://liff.line.me/2006335810-vKOPO9eM",
+                      uri: "https://www.google.com/",
                     },
                   },
                   {
