@@ -23,7 +23,7 @@ export default function Home() {
                     type: "bubble",
                     hero: {
                       type: "image",
-                      url: `https://test-line-liff-virid.vercel.app/test.png?time=${new Date().getTime()}`,
+                      url: `https://test-line-liff-virid.vercel.app/test.png`,
                       size: "full",
                       aspectRatio: "13:13",
                       aspectMode: "cover",
@@ -38,7 +38,7 @@ export default function Home() {
                       contents: [
                         {
                           type: "text",
-                          text: `月圓你更圓03～${new Date().getTime()}`,
+                          text: `月圓你更圓03～`,
                           weight: "bold",
                           size: "xl",
                         },
