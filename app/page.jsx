@@ -18,7 +18,7 @@ export default function Home() {
               [
                 {
                   type: "flex",
-                  altText: "耶咿01～～～",
+                  altText: "耶咿02～～～",
                   contents: {
                     type: "bubble",
                     hero: {
@@ -29,7 +29,7 @@ export default function Home() {
                       aspectMode: "cover",
                       action: {
                         type: "uri",
-                        uri: "https://www.google.com/?v=01",
+                        uri: "https://www.google.com/?v=02",
                       },
                     },
                     body: {
@@ -38,7 +38,7 @@ export default function Home() {
                       contents: [
                         {
                           type: "text",
-                          text: "月圓你更圓～",
+                          text: "月圓你更圓02～",
                           weight: "bold",
                           size: "xl",
                         },
