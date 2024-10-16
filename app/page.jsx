@@ -29,7 +29,7 @@ export default function Home() {
                       aspectMode: "cover",
                       action: {
                         type: "uri",
-                        uri: "https://www.google.com/?v=02",
+                        uri: "https://www.google.com/?v=03",
                       },
                     },
                     body: {
