@@ -18,7 +18,7 @@ export default function Home() {
               [
                 {
                   type: "flex",
-                  altText: "耶咿～～～",
+                  altText: "耶咿01～～～",
                   contents: {
                     type: "bubble",
                     hero: {
